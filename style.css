@@ -39,11 +39,11 @@ img {
 }
 
 .btn.prev {
-  left: 10px;
+  left: 15px;
 }
 
 .btn.next {
-  right: 40px;
+  right: 10px;
 }
 
 .btn:hover {
