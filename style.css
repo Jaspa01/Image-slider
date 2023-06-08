@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: wheat;
+}
+
+.slider-container {
+  position: relative;
+  width: 550px;
+  overflow: hidden;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 9px 11px rgba(220, 34, 34, 0.3);
+}
+
+.image-container {
+  transition: transform 0.4s ease-in-out;
+}
+
+img {
+  position: relative;
+  width: 550px;
+  height: 450px;
+  background-size: contain;
+  padding-top: 40px;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  color: rgb(37, 2, 2);
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn.prev {
+  left: 10px;
+}
+
+.btn.next {
+  right: 40px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
